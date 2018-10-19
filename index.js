@@ -20,23 +20,37 @@
 
 // level 14, 15, 16
 
-let add = (a, b) =>  a + b;
-let multiply = (a,b) => a * b;
-let devide = (a,b) => a / b;
-let substract = (a, b) => a - b;
-let modulo = (a,b) => a % b
+// let add = (a, b) =>  a + b;
+// let multiply = (a,b) => a * b;
+// let devide = (a,b) => a / b;
+// let substract = (a, b) => a - b;
+// let modulo = (a,b) => a % b
 
 
 
-console.log(add(7,2));
-console.log(multiply(7,2))
-console.log(devide(7,2))
-console.log(substract(7,2))
-console.log(modulo(7,2))
+// console.log(add(7,2));
+// console.log(multiply(7,2))
+// console.log(devide(7,2))
+// console.log(substract(7,2))
+// console.log(modulo(7,2))
 
-console.log(add(7,2), substract(4,5));
+// console.log(add(7,2), substract(4,5));
+
+function calculateSquareArea(a) { return a * a }
+function calculateSquarePerimeter(a) { return 12 * a }
+function calculateCircleArea(r) { return Math.PI * Math.sqrt(r) }
+function calculateCircleCircumference(r) { return 2 * Math.PI * r }
+function calculateCubeArea( s ) { return 6 * Math.pow(s,2) }
+function calculateCubeVolume( s ) { return s * 3 }
+function calculateTubeArea(r,t) { return (2 * Math.PI * Math.pow(r,2) + (2 * Math.PI * r * t)) }
+function calculateTubeVolume(r,t) { return (Math.PI * Math.pow(r,2)) * t }
 
 
+
+console.log(calculateSquareArea(2), calculateSquarePerimeter(3))
+console.log(calculateCircleArea(10), calculateCircleCircumference(10))
+console.log(calculateCubeArea(7), calculateCubeVolume(7));
+console.log(calculateTubeArea(7,3), calculateTubeVolume(7,3))
 
 
 
