@@ -1,4 +1,4 @@
-//------------ level 6 and 7 ---------------
+//------------ level 6 and 7 --------------- lovercase, charAt, slice, split, lenght
 // changing the first letter to capital
 // in function set the param , change the param to lowercase to make all small then split it to chage to array/
 // afterthat make looping to read the array index
@@ -21,30 +21,30 @@
 
 //---------- level 8,9,10,11,12 ----- if 
 
-var a = 7;
-var  b = 8;
-var c = 9;
-var d = 10;
+// var a = 7;
+// var  b = 8;
+// var c = 9;
+// var d = 10;
 
-let high = (x) => {
-    if (x > 9) {
-        return 'the highest'
-    }
+// let high = (x) => {
+//     if (x > 9) {
+//          return 'the highest'
+//     }
 
-    else if ( x > 8 && x < 10 ) {
-        return 'the second highest'
-    }
+//     else if ( x > 8 && x < 10 ) {
+//         return 'the second highest'
+//     }
 
-    else if ( x < 10) {
-        return 'the second lowest'
-    }
+//     else if ( x < 10) {
+//         return 'the second lowest'
+//     }
 
-    else {
-        return 'the lowest'
-    }
-}
+//     else {
+//         return 'the lowest'
+//     }
+// }
 
-console.log(high(b))
+// console.log(high(12))
 
 
 
@@ -84,8 +84,16 @@ console.log(high(b))
 // console.log(calculateCubeArea(7), calculateCubeVolume(7));
 // console.log(calculateTubeArea(7,3), calculateTubeVolume(7,3))
 
+// ------------------ level 20, 21, 22, 23 ---- time
 
-
+var time = new Date();
+var year = time.getFullYear();
+var month = time.getMonth();
+var date = time.getDate();
+var day = time.getDay();
+var hour = time.getHours();
+var minute = time.getMinutes();
+var secon = time.getSeconds();
 
 
 
